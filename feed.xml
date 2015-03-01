@@ -2,29 +2,37 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedpress="http://feedpress.it/xmlns" version="2.0">
   <channel>
+    <atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/>
     <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
-      </item>
+    <description>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</description>
+    <generator>Jekyll</generator>
+    <link>{{ site.url }}</link>
+    <itunes:author>Michiaki Ariga</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="http://rubyist.club/images/itunes-cover.jpg"/>
+    <itunes:keywords>ingress,jarvis,ada,cross faction</itunes:keywords>
+    <itunes:subtitle>Podcast for Rubyist by chezou</itunes:subtitle>
+    <itunes:summary>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:new-feed-url>http://feeds.rubyist.club/rubyistclub</itunes:new-feed-url>>
+    <itunes:owner>
+      <itunes:name>chezou</itunes:name>
+      <itunes:email>chezou@gmail.com</itunes:email>
+    </itunes:owner>
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <description>{{ post.content | xml_escape }}</description>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+      <guid>{{ site.url }}{{ post.id }}</guid>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:subtitle>{{ post.summary }}</itunes:subtitle>
+      <itunes:duration>{{ post.audio-duration }}</itunes:duration>
+      <enclosure url="{{ post.audio-src }}" type="audio/mpeg" length="{{ post.audio-length }}"/>
+    </item>
     {% endfor %}
   </channel>
 </rss>
