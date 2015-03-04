@@ -395,3 +395,23 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+.audio-container {
+  margin-bottom: 2em;
+  width: 100%;
+
+}
+
+.audio-container audio {
+  width: 90%;
+}
+
+.audio-container .audio-player {
+  margin-bottom: 0.5em;
+}
+
+
+.audio-container .audio-summary {
+  font-size: 80%;
+  text-align: right;
+}

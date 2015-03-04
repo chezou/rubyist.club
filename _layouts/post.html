@@ -25,13 +25,19 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 {% if page.audio-src %}
-                    <div id='playerGRhdbaygLCce' max-width='600px !important'></div>
+                <div class="audio-container">
+                    <div id='playerGRhdbaygLCce', class="audio-player"></div>
+                    <div class="audio-summary">
+                      <i class="icon-play-circle"></i> 収録時間: {{ page.audio-duration }} | <a href="{{ page.audio-src }}"><i class="icon-download-alt"></i> Download MP3 ({{ page.audio-length | byte_to_mb }}MB)</a>
+                    </div>
+                </div>
+
                     <script type='text/javascript'>
-                        var width = window.innerWidth * 0.8;
+                        var width = window.innerWidth;
                         if (width <= 320) {
                             width = 290;
-                        } else if (width > 640) {
-                            width = 600;
+                        } else {
+                            width = width * 0.8;
                         };
                         jwplayer('playerGRhdbaygLCce').setup({
                             file: '{{ page.audio-src }}',
