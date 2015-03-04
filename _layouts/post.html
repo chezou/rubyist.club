@@ -25,12 +25,18 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 {% if page.audio-src %}
-                    <div id='playerGRhdbaygLCce'></div>
+                    <div id='playerGRhdbaygLCce' max-width='600px !important'></div>
                     <script type='text/javascript'>
+                        var width = window.innerWidth * 0.8;
+                        if (width <= 320) {
+                            width = 290;
+                        } else if (width > 640) {
+                            width = 600;
+                        };
                         jwplayer('playerGRhdbaygLCce').setup({
                             file: '{{ page.audio-src }}',
                             image: '//www.longtailvideo.com/content/images/jw-player/lWMJeVvV-876.jpg',
-                            width: window.innerWidth * 0.85,
+                            width: width,
                             height: '30'
                         });
                     </script>
