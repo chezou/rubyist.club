@@ -9,6 +9,7 @@ twitter_username: chezou
 #github_username:  davidtmiller
 #facebook_username:  IronSummitMedia
 
+subscribe_rss: http://feeds.rubyist.club/rubyistclub
 
 # Build settings
 markdown: kramdown
