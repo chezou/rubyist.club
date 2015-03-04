@@ -24,7 +24,17 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
+                {% if page.audio-src %}
+                    <div id='playerGRhdbaygLCce'></div>
+                    <script type='text/javascript'>
+                        jwplayer('playerGRhdbaygLCce').setup({
+                            file: '{{ page.audio-src }}',
+                            image: '//www.longtailvideo.com/content/images/jw-player/lWMJeVvV-876.jpg',
+                            width: window.innerWidth * 0.85,
+                            height: '30'
+                        });
+                    </script>
+                {% endif %}
 				{{ content }}
 
                 <hr>
