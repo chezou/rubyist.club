@@ -15,4 +15,4 @@ markdown: kramdown
 highlighter: pygments
 permalink: /:title/
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","Rakefile"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","Rakefile","Gemfile"]
