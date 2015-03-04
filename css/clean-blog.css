@@ -399,7 +399,7 @@ body {
 .audio-container {
   margin-bottom: 2em;
   width: 100%;
-
+  max-width: 640px;
 }
 
 .audio-container audio {

@@ -36,6 +36,8 @@ layout: default
                         var width = window.innerWidth;
                         if (width <= 320) {
                             width = 290;
+                        } else if (width >= 640) {
+                            width = 620;
                         } else {
                             width = width * 0.8;
                         };
