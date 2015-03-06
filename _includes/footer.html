@@ -42,6 +42,16 @@
                         </a>
                     </li>
                     {% endif %}
+                    {% if site.itunes_url %}
+                    <li>
+                        <a href="{{ site.itunes_url }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-music fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</p>
             </div>
