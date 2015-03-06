@@ -13,7 +13,7 @@ task :preview do
 end
 
 task :deploy do
-    sh "jekyll"
+    sh "jekyll build"
     sh 'rsync -e "ssh -p #{ssh_port}" -avz --delete _site/ #{ssh_user}@#{ssh_host}:/home/#{ssh_user}/jekyll/_site'
 end
 
