@@ -10,6 +10,7 @@ twitter_username: chezou
 #facebook_username:  IronSummitMedia
 
 subscribe_rss: http://feeds.rubyist.club/rubyistclub
+itunes_url: https://itunes.apple.com/jp/podcast/rubyist.club/id973540950?mt=2
 
 # Build settings
 markdown: kramdown
