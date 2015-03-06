@@ -14,7 +14,7 @@ end
 
 task :deploy do
     sh "jekyll build"
-    sh 'rsync -e "ssh -p #{ssh_port}" -avz --delete _site/ #{ssh_user}@#{ssh_host}:/home/#{ssh_user}/jekyll/_site'
+    sh "rsync -e 'ssh -p #{ssh_port}' -avz --delete _site/ #{ssh_user}@#{ssh_host}:/home/#{ssh_user}/jekyll/_site"
 end
 
 # Usage: rake post["new-post-name"]
