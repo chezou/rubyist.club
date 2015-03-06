@@ -12,7 +12,7 @@ layout: null
     <itunes:author>Michiaki Ariga</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="http://rubyist.club/img/itunes-cover.jpg"/>
-    <itunes:keywords>ingress,jarvis,ada,cross faction</itunes:keywords>
+    <itunes:keywords>ruby,rubyist,rails,software engineering,tech</itunes:keywords>
     <itunes:subtitle>Podcast for Rubyist by chezou</itunes:subtitle>
     <itunes:summary>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</itunes:summary>
     <itunes:category text="Technology"/>
