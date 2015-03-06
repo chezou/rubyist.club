@@ -403,7 +403,7 @@ body {
 }
 
 .audio-container audio {
-  width: 90%;
+  width: 100%;
 }
 
 .audio-container .audio-player {
