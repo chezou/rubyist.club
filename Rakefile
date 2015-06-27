@@ -37,9 +37,9 @@ task :post, [:title] do |t, args|
         post.puts "title: #{args.title}"
         post.puts "date: #{date}"
         post.puts "summary: "
-        post.puts "audio-src: http://audio.rubyist.club/audio/rubyist_club_ep01.mp3"
+        post.puts "audio-src: http://rubyist.club/audio/rubyist_club_ep0#{args.title}.mp3"
         post.puts "audio-length: "
-        post.puts "audio-duration: "
+        post.puts "audio-duration: \":\""
         post.puts "author: chezou"
         post.puts "---"
     end
