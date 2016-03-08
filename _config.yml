@@ -16,5 +16,6 @@ itunes_url: https://itunes.apple.com/jp/podcast/rubyist.club/id973540950?mt=2
 markdown: kramdown
 highlighter: pygments
 permalink: /:title/
+gems: [jekyll-paginate]
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","Rakefile","Gemfile"]
