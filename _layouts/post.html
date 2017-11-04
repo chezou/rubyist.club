@@ -25,13 +25,18 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 {% if page.audio-src %}
-                <div class="audio-container">
-                    <audio preload="none" controls="" src="{{ page.audio-src }}"></audio>
-                    <div class="audio-summary">
-                      <i class="icon-play-circle"></i> 収録時間: {{ page.audio-duration }} | <a href="{{ page.audio-src }}"><i class="icon-download-alt"></i> Download MP3 ({{ page.audio-length | byte_to_mb }}MB)</a>
-                    </div>
-                </div>
-
+                <p>
+                    <audio
+                      class="mejs-player"
+                      controls=""
+                      data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
+                      preload="auto"
+                      src="{{ page.audio-src }}"
+                      width="100%"
+                      style="width: 100%"
+                    >
+                    </audio>
+                </p>
                 {% endif %}
 				{{ content }}
 
