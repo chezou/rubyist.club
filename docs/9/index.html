@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A Podcast by chezou for Rubyist">
+    <meta name="apple-itunes-app" content="app-id=973540950">
+
+    <title>9: Data Engineer, not Data Scientist (joker1007) - rubyist.club</title>
+
+    <link rel="canonical" href="https://rubyist.club/9/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <link href="/favicon.ico" rel="icon">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="http://feeds.rubyist.club/rubyistclub" rel="alternate" title="rubyist.club" type="application/atom+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelementplayer.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelement-and-player.min.js"></script>
+</head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-21840244-8', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">rubyist.club</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="http://feeds.rubyist.club/rubyistclub">RSS</a>
+                </li>
+                
+                <li>
+                    <a href="https://itunes.apple.com/jp/podcast/rubyist.club/id973540950?mt=2">iTunes</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>9: Data Engineer, not Data Scientist (joker1007)</h1>
+                    
+                    <span class="meta">Posted by chezou on May 24, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                
+                <p>
+                    <audio
+                      class="mejs-player"
+                      controls=""
+                      data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
+                      preload="auto"
+                      src="http://rubyist.club/audio/rubyist_club_ep09.mp3"
+                      width="100%"
+                      style="width: 100%"
+                    >
+                    </audio>
+                </p>
+                
+				<p><a class="external" target="_blank" href="https://twitter.com/joker1007">@joker1007</a>さんに、Data EngineeringとワークフローエンジンRukawaの話を聞きました。</p>
+
+<h2 id="show-notes">Show Notes</h2>
+
+<ul>
+  <li><a class="external" target="_blank" href="http://agile.esm.co.jp/news/2015-12-29-rubykaigi2015-drinkup-report.html">RubyKaigi 2015 Drinkup を開催しました</a></li>
+  <li><a class="external" target="_blank" href="http://amzn.to/1TaSOdt">パーフェクトRuby</a></li>
+  <li><a class="external" target="_blank" href="http://amzn.to/1WuvJZx">パーフェクトRuby on Rails</a></li>
+  <li><a class="external" target="_blank" href="http://www.fluentd.org/">Fluentd | Open Source Data Collector | Unified Logging Layer</a></li>
+  <li><a class="external" target="_blank" href="http://www.embulk.org/docs/">Embulk</a></li>
+  <li><a class="external" target="_blank" href="https://aws.amazon.com/jp/datapipeline/">Amazon Data Pipeline</a></li>
+  <li><a class="external" target="_blank" href="http://chezou.hatenablog.com/entry/2016/05/05/222046">データを一箇所に集めることでデータ活用の民主化が進んだ話 - once upon a time,</a></li>
+  <li><a class="external" target="_blank" href="http://amzn.to/1IL7z4h">10年戦えるデータ分析入門 SQLを武器にデータ活用時代を生き抜く</a></li>
+  <li><a class="external" target="_blank" href="https://github.com/kaizenplatform/fluent-plugin-bigquery">kaizenplatform/fluent-plugin-bigquery</a></li>
+  <li><a class="external" target="_blank" href="http://qiita.com/joker1007/items/02b334d1cca76fadaf2c">Ruby製のシンプルなワークフローエンジンRukawaの紹介</a></li>
+  <li><a class="external" target="_blank" href="http://qiita.com/toyama0919/items/9c9e3fd5c8a92a7b7686">OSSのワークフローエンジンを使ってみた感想</a></li>
+  <li><a class="external" target="_blank" href="http://techlife.cookpad.com/entry/2015/06/27/154407">巨大なバッチを分割して構成する 〜SQLバッチフレームワークBricolage〜</a></li>
+  <li><a class="external" target="_blank" href="https://medium.com/airbnb-engineering/reair-easy-to-use-tools-for-migrating-and-replicating-petabyte-scale-data-warehouses-5153f8a433da#.go9kh4avw">ReAir: Easy-to-Use Tools for Migrating and Replicating Petabyte-Scale Data Warehouses</a></li>
+</ul>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/8/" data-toggle="tooltip" data-placement="top" title="8: [Mini] Free Wi-Fi like Aether">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/10/" data-toggle="tooltip" data-placement="top" title="10: Go your way (mirakui)">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="http://feeds.rubyist.club/rubyistclub">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/chezou">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="https://itunes.apple.com/jp/podcast/rubyist.club/id973540950?mt=2">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-music fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; rubyist.club 2018</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+</body>
+
+</html>
