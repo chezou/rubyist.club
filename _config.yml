@@ -19,4 +19,14 @@ permalink: /:title/
 gems: [jekyll-paginate]
 destination: docs
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","Rakefile","Gemfile", "vendor"]
+exclude:
+  - less
+  - node_modules
+  - Gruntfile.js
+  - package.json
+  - README.md
+  - Rakefile
+  - Gemfile
+  - vendor
+  - LICENSE
+
