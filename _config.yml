@@ -4,12 +4,12 @@ header-img: img/home-bg.jpg
 email: chezou@gmail.com
 description: "A Podcast by chezou for Rubyist"
 baseurl: ""
-url: "https://rubyist.club"
+url: "https://chezou.github.io/chezou/rubyist.club"
 twitter_username: chezou
 #github_username:  davidtmiller
 #facebook_username:  IronSummitMedia
 
-subscribe_rss: http://feeds.rubyist.club/rubyistclub
+subscribe_rss: https://chezou.github.io/rubyist.club/feed.xml
 itunes_url: https://itunes.apple.com/jp/podcast/rubyist.club/id973540950?mt=2
 
 # Build settings

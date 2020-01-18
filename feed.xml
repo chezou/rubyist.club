@@ -11,7 +11,7 @@ layout: null
     <link>{{ site.url }}</link>
     <itunes:author>Michiaki Ariga</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://rubyist.club/img/itunes-cover.jpg"/>
+    <itunes:image href="https://chezou.github.io/rubyist.club/img/itunes-cover.jpg"/>
     <itunes:keywords>ruby,rubyist,rails,software engineering,tech</itunes:keywords>
     <itunes:subtitle>Podcast for Rubyist by chezou</itunes:subtitle>
     <itunes:summary>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</itunes:summary>

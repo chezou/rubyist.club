@@ -8,7 +8,7 @@
     <link>https://rubyist.club</link>
     <itunes:author>Michiaki Ariga</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="http://rubyist.club/img/itunes-cover.jpg"/>
+    <itunes:image href="https://chezou.github.io/rubyist.club/img/itunes-cover.jpg"/>
     <itunes:keywords>ruby,rubyist,rails,software engineering,tech</itunes:keywords>
     <itunes:subtitle>Podcast for Rubyist by chezou</itunes:subtitle>
     <itunes:summary>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</itunes:summary>
@@ -49,7 +49,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@_ko1 さん、@yotii23 さん、@1syoさんをゲストに、本の翻訳について話しました</itunes:subtitle>
       <itunes:duration>01:34:38</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep11.mp3" type="audio/mpeg" length="45425056"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep11.mp3" type="audio/mpeg" length="45425056"/>
     </item>
     
     <item>
@@ -76,7 +76,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@mirakuiさんをゲストに、VP of Engineeringとしての仕事やマネジメントについて話しました。</itunes:subtitle>
       <itunes:duration>1:36:56</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep10.mp3" type="audio/mpeg" length="46529723"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep10.mp3" type="audio/mpeg" length="46529723"/>
     </item>
     
     <item>
@@ -107,7 +107,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@joker1007さんにData EngineeringとワークフローエンジンRukawaの話を聞きました</itunes:subtitle>
       <itunes:duration>1:19:17</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep09.mp3" type="audio/mpeg" length="38053092"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep09.mp3" type="audio/mpeg" length="38053092"/>
     </item>
     
     <item>
@@ -130,7 +130,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>iOSに指すだけのマイクSHURE MV88を使って、はじめての海外収録を Dublin からお届けします</itunes:subtitle>
       <itunes:duration>15:14</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep08.mp3" type="audio/mpeg" length="7313030"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep08.mp3" type="audio/mpeg" length="7313030"/>
     </item>
     
     <item>
@@ -166,7 +166,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@h13i32maru さんに Podcast に対する想いについて聞きました</itunes:subtitle>
       <itunes:duration>1:09:30</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep07.mp3" type="audio/mpeg" length="33357112"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep07.mp3" type="audio/mpeg" length="33357112"/>
     </item>
     
     <item>
@@ -196,7 +196,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@kon_yu さんに スタートアップでの CTO の話を聞きました</itunes:subtitle>
       <itunes:duration>1:33:01</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep06.mp3" type="audio/mpeg" length="44646190"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep06.mp3" type="audio/mpeg" length="44646190"/>
     </item>
     
     <item>
@@ -227,7 +227,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@yucao24hours さんに聞く よちよち.rb の話</itunes:subtitle>
       <itunes:duration>51:58</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep05.mp3" type="audio/mpeg" length="24946728"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep05.mp3" type="audio/mpeg" length="24946728"/>
     </item>
     
     <item>
@@ -246,7 +246,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@miyohide さんと聞く @bash0C7 さんに業務知識の話とGopherくんへの愛</itunes:subtitle>
       <itunes:duration>45:03</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep04.mp3" type="audio/mpeg" length="21622908"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep04.mp3" type="audio/mpeg" length="21622908"/>
     </item>
     
     <item>
@@ -269,7 +269,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@miyohide さんと一緒に @bash0C7 さんにロックスターへのあこがれと"SE"を極める話をお聞きしました</itunes:subtitle>
       <itunes:duration>01:02:11</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep03.mp3" type="audio/mpeg" length="29844792"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep03.mp3" type="audio/mpeg" length="29844792"/>
     </item>
     
     <item>
@@ -297,7 +297,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@yumu19 さんに環境を変える事、地方、コミュニティ運営の話を聞きました</itunes:subtitle>
       <itunes:duration>01:24:21</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep02.mp3" type="audio/mpeg" length="40486451"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep02.mp3" type="audio/mpeg" length="40486451"/>
     </item>
     
     <item>
@@ -323,7 +323,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@miyohide さんと神奈川 Ruby 会議 01 の振り返りをしました。</itunes:subtitle>
       <itunes:duration>1:10:05</itunes:duration>
-      <enclosure url="http://rubyist.club/audio/rubyist_club_ep01.mp3" type="audio/mpeg" length="33647500"/>
+      <enclosure url="https://chezou.github.io/rubyist.club/audio/rubyist_club_ep01.mp3" type="audio/mpeg" length="33647500"/>
     </item>
     
   </channel>
