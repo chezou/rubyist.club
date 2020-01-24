@@ -17,7 +17,7 @@ layout: null
     <itunes:subtitle>Podcast for Rubyist by chezou</itunes:subtitle>
     <itunes:summary>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</itunes:summary>
     <itunes:category text="Technology"/>
-    <itunes:new-feed-url>https://rubyistclub.chezo.uno/feed.xml</itunes:new-feed-url>>
+    <itunes:new-feed-url>https://rubyistclub.chezo.uno/feed.xml</itunes:new-feed-url>
     <itunes:owner>
       <itunes:name>chezou</itunes:name>
       <itunes:email>chezou@gmail.com</itunes:email>
