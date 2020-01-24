@@ -4,8 +4,9 @@
     <atom:link rel="hub" href="http://pubsubhubbub.appspot.com" xmlns:atom="http://www.w3.org/2005/Atom"/>
     <title>rubyist.club</title>
     <description>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</description>
+    <language>ja-jp</language>
     <generator>Jekyll</generator>
-    <link>https://rubyist.club</link>
+    <link>http://localhost:4000</link>
     <itunes:author>Michiaki Ariga</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://rubyistclub.chezo.uno/img/itunes-cover.jpg"/>
@@ -13,7 +14,7 @@
     <itunes:subtitle>Podcast for Rubyist by chezou</itunes:subtitle>
     <itunes:summary>Rubyの周辺の技術やRubyコミュニティについて話すPodcastです。</itunes:summary>
     <itunes:category text="Technology"/>
-    <itunes:new-feed-url>http://feeds.rubyist.club/rubyistclub</itunes:new-feed-url>>
+    <itunes:new-feed-url>https://rubyistclub.chezo.uno/feed.xml</itunes:new-feed-url>
     <itunes:owner>
       <itunes:name>chezou</itunes:name>
       <itunes:email>chezou@gmail.com</itunes:email>
@@ -43,9 +44,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://twitter.com/kohsei/status/778046914667302912&quot;&gt;『ルビィのぼうけん　コンピューターの国のルビィ』&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/11/</link>
+      <link>http://localhost:4000/11/</link>
       <pubDate>Wed, 23 Nov 2016 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/11</guid>
+      <guid>http://localhost:4000/11</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@_ko1 さん、@yotii23 さん、@1syoさんをゲストに、本の翻訳について話しました</itunes:subtitle>
       <itunes:duration>01:34:38</itunes:duration>
@@ -70,9 +71,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://amzn.to/2bWGYJG&quot;&gt;iPad mini 4 64GB&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/10/</link>
+      <link>http://localhost:4000/10/</link>
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/10</guid>
+      <guid>http://localhost:4000/10</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@mirakuiさんをゲストに、VP of Engineeringとしての仕事やマネジメントについて話しました。</itunes:subtitle>
       <itunes:duration>1:36:56</itunes:duration>
@@ -101,9 +102,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://medium.com/airbnb-engineering/reair-easy-to-use-tools-for-migrating-and-replicating-petabyte-scale-data-warehouses-5153f8a433da#.go9kh4avw&quot;&gt;ReAir: Easy-to-Use Tools for Migrating and Replicating Petabyte-Scale Data Warehouses&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/9/</link>
+      <link>http://localhost:4000/9/</link>
       <pubDate>Tue, 24 May 2016 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/9</guid>
+      <guid>http://localhost:4000/9</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@joker1007さんにData EngineeringとワークフローエンジンRukawaの話を聞きました</itunes:subtitle>
       <itunes:duration>1:19:17</itunes:duration>
@@ -124,9 +125,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://www.instagram.com/p/BCkmKx2gdyk/&quot;&gt;Runestoneで名前を書いてみよう！のコーナー&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/8/</link>
+      <link>http://localhost:4000/8/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/8</guid>
+      <guid>http://localhost:4000/8</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>iOSに指すだけのマイクSHURE MV88を使って、はじめての海外収録を Dublin からお届けします</itunes:subtitle>
       <itunes:duration>15:14</itunes:duration>
@@ -160,9 +161,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://doc.esdoc.org/&quot;&gt;ESDoc Hosting Service&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/7/</link>
+      <link>http://localhost:4000/7/</link>
       <pubDate>Sat, 26 Dec 2015 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/7</guid>
+      <guid>http://localhost:4000/7</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@h13i32maru さんに Podcast に対する想いについて聞きました</itunes:subtitle>
       <itunes:duration>1:09:30</itunes:duration>
@@ -190,9 +191,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.slideshare.net/kon_yu/sierweb-51894411&quot;&gt;SIerからWebエンジニアへの失敗しない転職方法&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/6/</link>
+      <link>http://localhost:4000/6/</link>
       <pubDate>Sun, 06 Sep 2015 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/6</guid>
+      <guid>http://localhost:4000/6</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@kon_yu さんに スタートアップでの CTO の話を聞きました</itunes:subtitle>
       <itunes:duration>1:33:01</itunes:duration>
@@ -221,9 +222,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;https://twitter.com/mametter&quot;&gt;Yusuke Endoh(@mametter)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/5/</link>
+      <link>http://localhost:4000/5/</link>
       <pubDate>Sat, 27 Jun 2015 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/5</guid>
+      <guid>http://localhost:4000/5</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@yucao24hours さんに聞く よちよち.rb の話</itunes:subtitle>
       <itunes:duration>51:58</itunes:duration>
@@ -240,9 +241,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://bash0c7.hatenablog.com/entry/2014/12/31/212308&quot;&gt;#C87 でGolangのマスコット「Gopher」のコスプレした人がいた件の詳細まとめ - id:bash0C7の進捗&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/4/</link>
+      <link>http://localhost:4000/4/</link>
       <pubDate>Fri, 08 May 2015 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/4</guid>
+      <guid>http://localhost:4000/4</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@miyohide さんと聞く @bash0C7 さんに業務知識の話とGopherくんへの愛</itunes:subtitle>
       <itunes:duration>45:03</itunes:duration>
@@ -263,9 +264,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.atmarkit.co.jp/ait/articles/1409/01/news007.html&quot;&gt;マイナビ転職×＠IT自分戦略研究所 「キャリアアップ 転職体験談」：第31回　PMへの道を避けたエンジニアの今――ハックを尊ぶ社風が育む働きやすさとは - ＠IT&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/3/</link>
+      <link>http://localhost:4000/3/</link>
       <pubDate>Mon, 04 May 2015 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/3</guid>
+      <guid>http://localhost:4000/3</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@miyohide さんと一緒に @bash0C7 さんにロックスターへのあこがれと"SE"を極める話をお聞きしました</itunes:subtitle>
       <itunes:duration>01:02:11</itunes:duration>
@@ -291,9 +292,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://www.amazon.co.jp/gp/product/4873114950?ie=UTF8&amp;amp;camp=1207&amp;amp;creative=8411&amp;amp;creativeASIN=4873114950&amp;amp;linkCode=shr&amp;amp;tag=chezou-22&quot;&gt;アート・オブ・コミュニティ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/2/</link>
+      <link>http://localhost:4000/2/</link>
       <pubDate>Mon, 20 Apr 2015 00:00:00 +0900</pubDate>
-      <guid>https://rubyist.club/2</guid>
+      <guid>http://localhost:4000/2</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@yumu19 さんに環境を変える事、地方、コミュニティ運営の話を聞きました</itunes:subtitle>
       <itunes:duration>01:24:21</itunes:duration>
@@ -317,9 +318,9 @@
   &lt;li&gt;&lt;a class=&quot;external&quot; target=&quot;_blank&quot; href=&quot;http://magazine.rubyist.net/?0039-ForeWord&quot;&gt;Rubyist Magazine - 0039 号 巻頭言&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-      <link>https://rubyist.club/1/</link>
+      <link>http://localhost:4000/1/</link>
       <pubDate>Mon, 02 Mar 2015 01:48:00 +0900</pubDate>
-      <guid>https://rubyist.club/1</guid>
+      <guid>http://localhost:4000/1</guid>
       <itunes:explicit>no</itunes:explicit>
       <itunes:subtitle>@miyohide さんと神奈川 Ruby 会議 01 の振り返りをしました。</itunes:subtitle>
       <itunes:duration>1:10:05</itunes:duration>
