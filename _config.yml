@@ -4,7 +4,9 @@ header-img: img/home-bg.jpg
 email: chezou@gmail.com
 description: "A Podcast by chezou for Rubyist"
 baseurl: ""
-url: "https://chezou.github.io/chezou/rubyist.club"
+domain: rubyistclub.chezo.uno
+url: "https://rubyistclub.chezo.uno/"
+
 twitter_username: chezou
 #github_username:  davidtmiller
 #facebook_username:  IronSummitMedia
